@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C52756171DF685E8005600E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C52756161DF685E8005600E8 /* main.m */; };
+		C527561A1DF685E8005600E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C52756191DF685E8005600E8 /* AppDelegate.m */; };
+		C527561D1DF685E8005600E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C527561C1DF685E8005600E8 /* ViewController.m */; };
+		C52756201DF685E8005600E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C527561E1DF685E8005600E8 /* Main.storyboard */; };
+		C52756221DF685E8005600E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52756211DF685E8005600E8 /* Assets.xcassets */; };
+		C52756251DF685E8005600E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52756231DF685E8005600E8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C52756121DF685E8005600E8 /* barcodereader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barcodereader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52756161DF685E8005600E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C52756181DF685E8005600E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C52756191DF685E8005600E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C527561B1DF685E8005600E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C527561C1DF685E8005600E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C527561F1DF685E8005600E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C52756211DF685E8005600E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C52756241DF685E8005600E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C52756261DF685E8005600E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C527560F1DF685E8005600E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C52756091DF685E8005600E8 = {
+			isa = PBXGroup;
+			children = (
+				C52756141DF685E8005600E8 /* barcodereader */,
+				C52756131DF685E8005600E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C52756131DF685E8005600E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52756121DF685E8005600E8 /* barcodereader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52756141DF685E8005600E8 /* barcodereader */ = {
+			isa = PBXGroup;
+			children = (
+				C52756181DF685E8005600E8 /* AppDelegate.h */,
+				C52756191DF685E8005600E8 /* AppDelegate.m */,
+				C527561B1DF685E8005600E8 /* ViewController.h */,
+				C527561C1DF685E8005600E8 /* ViewController.m */,
+				C527561E1DF685E8005600E8 /* Main.storyboard */,
+				C52756211DF685E8005600E8 /* Assets.xcassets */,
+				C52756231DF685E8005600E8 /* LaunchScreen.storyboard */,
+				C52756261DF685E8005600E8 /* Info.plist */,
+				C52756151DF685E8005600E8 /* Supporting Files */,
+			);
+			path = barcodereader;
+			sourceTree = "<group>";
+		};
+		C52756151DF685E8005600E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C52756161DF685E8005600E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C52756111DF685E8005600E8 /* barcodereader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52756291DF685E8005600E8 /* Build configuration list for PBXNativeTarget "barcodereader" */;
+			buildPhases = (
+				C527560E1DF685E8005600E8 /* Sources */,
+				C527560F1DF685E8005600E8 /* Frameworks */,
+				C52756101DF685E8005600E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barcodereader;
+			productName = barcodereader;
+			productReference = C52756121DF685E8005600E8 /* barcodereader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C527560A1DF685E8005600E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Cyber Desigz";
+				TargetAttributes = {
+					C52756111DF685E8005600E8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C527560D1DF685E8005600E8 /* Build configuration list for PBXProject "barcodereader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C52756091DF685E8005600E8;
+			productRefGroup = C52756131DF685E8005600E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C52756111DF685E8005600E8 /* barcodereader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C52756101DF685E8005600E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52756251DF685E8005600E8 /* LaunchScreen.storyboard in Resources */,
+				C52756221DF685E8005600E8 /* Assets.xcassets in Resources */,
+				C52756201DF685E8005600E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C527560E1DF685E8005600E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C527561D1DF685E8005600E8 /* ViewController.m in Sources */,
+				C527561A1DF685E8005600E8 /* AppDelegate.m in Sources */,
+				C52756171DF685E8005600E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C527561E1DF685E8005600E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C527561F1DF685E8005600E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C52756231DF685E8005600E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52756241DF685E8005600E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C52756271DF685E8005600E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C52756281DF685E8005600E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C527562A1DF685E8005600E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barcodereader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ninesol.barcodereader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C527562B1DF685E8005600E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barcodereader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ninesol.barcodereader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C527560D1DF685E8005600E8 /* Build configuration list for PBXProject "barcodereader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52756271DF685E8005600E8 /* Debug */,
+				C52756281DF685E8005600E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C52756291DF685E8005600E8 /* Build configuration list for PBXNativeTarget "barcodereader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C527562A1DF685E8005600E8 /* Debug */,
+				C527562B1DF685E8005600E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C527560A1DF685E8005600E8 /* Project object */;
+}
